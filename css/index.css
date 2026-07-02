@@ -8,7 +8,7 @@
       --orange-dark:#d96e00;
       --white:      #FFFFFF;
       --gray:       #6B7280;
-      --gray-light: #F9FAFB;
+      --gray-light: #e2e2e2;
       --text:       #1F2937;
     }
  
@@ -283,8 +283,8 @@
  
     .section-label {
       display: inline-block;
-      font-size: 0.75rem;
-      font-weight: 700;
+      font-size: 0.85rem;
+      font-weight: 750;
       color: var(--orange);
       text-transform: uppercase;
       letter-spacing: 0.12em;
@@ -507,14 +507,14 @@
     .btn-outline:hover { background: var(--blue); color: var(--white); }
  
     /* ── POURQUOI INFO UNIVERS ────────────────────────────── */
-    .section-why {
+    .section-pourquoi {
       padding: 5rem 2rem;
-      background: var(--blue);
+      background: var(--white);
       position: relative;
       overflow: hidden;
     }
  
-    .section-why::before {
+    .section-pourquoi::before {
       content: '';
       position: absolute;
       top: -60px; right: -60px;
@@ -523,11 +523,11 @@
       border-radius: 50%;
     }
  
-    .section-why .section-label { color: #ffa64d; }
-    .section-why .section-header h2 { color: var(--white); }
-    .section-why .section-header p { color: #a0b4d0; }
+    .section-pourquoi .section-label { color: #ffa64d; }
+    .section-pourquoi .section-header h2 { color: var(--blue-dark); }
+    .section-pourquoi .section-header p { color: var(--gray); }
  
-    .why-grid {
+    .pourquoi-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 1.5rem;
@@ -535,40 +535,67 @@
       margin: 0 auto;
     }
  
-    .why-card {
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.1);
+    .pourquoi-card {
+      background: var(--white);
+      border: 2px solid var(--blue-light);
       border-radius: 14px;
       padding: 2rem 1.5rem;
       text-align: center;
-      transition: background 0.25s, transform 0.25s;
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pourquoi-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--blue);
+      opacity: 0;
+      transition: opacity 0.25s;
+      z-index: 0;
     }
  
-    .why-card:hover { background: rgba(255,255,255,0.1); transform: translateY(-4px); }
- 
-    .why-icon {
+    .pourquoi-card:hover { border-color: var(--blue); transform: translateY(-4px); box-shadow: 0 12px 30px rgba(26, 60, 110, 0.15); }
+    .pourquoi-card:hover::before { opacity: 1; }
+    .pourquoi-card:hover h3 { color: var(--white); }
+    .pourquoi-card:hover p { color: #a0b4d0; }
+    .pourquoi-card:hover .pourquoi-icon { background: rgba(245,130,13,0.2); color: var(--orange); }
+
+    .pourquoi-icon {
       width: 64px; height: 64px;
-      background: rgba(245,130,13,0.15);
+      background: var(--blue-light);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 2rem;
       margin: 0 auto 1.2rem;
+      position: relative;
+      z-index: 1;
+      transition: all 0.25s;
     }
  
-    .why-card h3 {
+    .pourquoi-card h3 {
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
       font-size: 1.05rem;
-      color: var(--white);
+      color: var(--blue);
       margin-bottom: 0.6rem;
+      transition: color 0.25s;
+      position: relative;
+      z-index: 1;
     }
  
-    .why-card p {
-      font-size: 0.88rem;
-      color: #a0b4d0;
+    .pourquoi-card p {
+      font-size: 1.05rem;
+      color: var(--gray);
+      transition: color 0.25s;
       line-height: 1.6;
+      font-weight: 500;
+      font-family: 'Times New Roman', Times, serif;
+      z-index: 1;
+      position: relative;
     }
  
     /* ── FOOTER ──────────────────────────────────────────── */

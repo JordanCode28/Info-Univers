@@ -6,6 +6,7 @@
     <title>Info Univers - Annuaire des Formations Informatiques au Gabon</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
   <!-- HEADER -->
@@ -33,17 +34,17 @@
       <div class="hero-inner">
         <div class="hero-badge"> Gabon - Formations Informatiques</div>
         <h1> Trouve ta formation <br>information <em> près de chez toi </em></h1>
-        <p>Recherche parmi les meilleurs centres de formations au Gabon. Filtre par ville, quartier et domaine</p>
+        <p>Recherche parmi les meilleurs établissements de formation au Gabon. Filtre par ville, quartier et domaine</p>
 
         <div class="search-box">
-          <input type="text" placeholder="Rechercher une formation, une école, un domaine...">
+          <input type="text" placeholder="Rechercher une formation, un établissement, un domaine...">
           <button>Rechercher</button>
         </div>
 
         <div class="hero-stats">
           <div class="hero-stat">
             <strong>10+</strong>
-            <span>Centres de formation</span>
+            <span>Etablissements de formation</span>
           </div>
           <div class="hero-stat">
             <strong>6</strong>
@@ -59,57 +60,62 @@
 
   <!--DOMAINES-->
     <section class="section-domaines">
-      <div class="section-header">
-        <span class="section-label">Explorer par domaine</span>
-        <h2>Nos domaines de formation</h2>
-        <p>Clique sur un domaine pour voir tous les centres qui les proposent</p>
-      </div>
+    <div class="section-header">
+      <span class="section-label">Explorer par domaine</span>
+      <h2>Nos domaines de formation</h2>
+      <p>Clique sur un domaine pour voir tous les centres qui le proposent.</p>
+    </div>
 
-      <div class="domaines-grid">
-        <div class="domaine-card">
-          <div class="domain-icon">
-            <a href="https://www.flaticon.com/fr/icones-gratuites/developpement-web" title="développement web icônes">Développement web icônes créées par Freepik - Flaticon</a>
-          </div>
-          <div class="domain-name">Développement Web</div>
-          <div class="domaine-count">12 centres</div>
-        </div>
-        <div class="domaine-card">
-          <div class="domaine-icon">
-            <a href="https://www.flaticon.com/fr/icones-gratuites/la-cyber-securite" title="la cyber-sécurité icônes">La cyber-sécurité icônes créées par gravisio - Flaticon</a>
-          </div>
-          <div class="domain-name">Cyber sécurité</div>
-          <div class="domaine-count">6 centres</div>
-        </div>
-        <div class="domaine-card">
-          <div class="domaine-icon">
-            <a href="https://www.flaticon.com/fr/icones-gratuites/creation-de-sites-web" title="création de sites web icônes">Création de sites web icônes créées par Freepik - Flaticon</a>
-          </div>
-          <div class="domain-name">Web Design</div>
-          <div class="domaine-count">9 centres</div>
-        </div>
-        <div class="domaine-card">
-          <div class="domaine-icon">
-            <a href="https://www.flaticon.com/fr/icones-gratuites/conception" title="conception icônes">Conception icônes créées par Freepik - Flaticon</a>
-          </div>
-          <div class="domain-name">Infographie</div>
-          <div class="domaine-count">8 centres</div>
-        </div>
-        <div class="domaine-card">
-          <div class="domaine-icon">
-            <a href="https://www.flaticon.com/fr/icones-gratuites/conception" title="conception icônes">Conception icônes créées par Freepik - Flaticon</a>
-          </div>
-          <div class="domain-name">Bureautique</div>
-          <div class="domaine-count">15 centres</div>
-        </div>
-        <div class="domaine-card">
-          <div class="domaine-icon">
-            <a href="https://www.flaticon.com/fr/icones-gratuites/application-mobile" title="application mobile icônes">Application mobile icônes créées par Graphix's Art - Flaticon</a>
-          </div>
-          <div class="domain-name">Dev Mobile</div>
-          <div class="domaine-count">4 centres</div>
-        </div>
+  <div class="domaines-grid">
+    <div class="domaine-card">
+      <div class="domaine-icon">
+        <i class="fas fa-code"></i>
       </div>
-    </section> 
+      <div class="domaine-name">Développement Web</div>
+      <div class="domaine-count">12 centres</div>
+    </div>
+
+    <div class="domaine-card">
+      <div class="domaine-icon">
+        <i class="fas fa-shield-halved"></i>
+      </div>
+      <div class="domaine-name">Cybersécurité</div>
+      <div class="domaine-count">6 centres</div>
+    </div>
+
+    <div class="domaine-card">
+      <div class="domaine-icon">
+        <i class="fas fa-pen-nib"></i>
+      </div>
+      <div class="domaine-name">Web Design</div>
+      <div class="domaine-count">9 centres</div>
+    </div>
+
+    <div class="domaine-card">
+      <div class="domaine-icon">
+        <i class="fas fa-image"></i>
+      </div>
+      <div class="domaine-name">Infographie</div>
+      <div class="domaine-count">8 centres</div>
+    </div>
+
+    <div class="domaine-card">
+      <div class="domaine-icon">
+        <i class="fas fa-file-word"></i>
+      </div>
+      <div class="domaine-name">Bureautique</div>
+      <div class="domaine-count">15 centres</div>
+    </div>
+
+    <div class="domaine-card">
+      <div class="domaine-icon">
+        <i class="fas fa-mobile-screen"></i>
+      </div>
+      <div class="domaine-name">Dév. Mobile</div>
+      <div class="domaine-count">4 centres</div>
+    </div>
+  </div>
+</section>
     
   <!-- ECOLE EN VEDETTE -->
     <section class="section-ecoles">
@@ -192,27 +198,35 @@
       <div class="section-header">
         <span class="section-label">Notre mission</span>
         <h2>Pourquoi Info Univers ?</h2>
-        <p>Un outil simple créé pour résoudre un vrai problème au Gabon.</p>
+        <p>Un outil simple créé pour résoudre un problème important au Gabon.</p>
       </div>
 
       <div class="pourquoi-grid">
         <div class="pourquoi-card">
-          <div class="pourquoi-icon">...</div>
+          <div class="pourquoi-icon">
+            <i class="fas fa-location-dot"></i>
+          </div>
           <h3>Proximité</h3>
           <p>Trouve un centre de formation dans ton quartier. Fini les longs déplacements inutiles.</p>
         </div>
         <div class="pourquoi-card">
-          <div class="pourquoi-icon">...</div>
+          <div class="pourquoi-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
           <h3>Rapidité</h3>
           <p>En quelques clics, accède à toutes les informations sur les centres de formation.</p>
         </div>
         <div class="pourquoi-card">
-          <div class="pourquoi-icon">...</div>
+          <div class="pourquoi-icon">
+            <i class="fas fa-lock-open"></i>
+          </div>
           <h3>Gratuité</h3>
           <p>Info Univers est entièrement gratuit pour les utilisateurs, partout au Gabon.</p>
         </div>
         <div class="pourquoi-card">
-          <div class="pourquoi-icon">...</div>
+          <div class="pourquoi-icon">
+            <i class="fas fa-sliders"></i>
+          </div>
           <h3>Précision</h3>
           <p>Filtre par ville, quartier et domaine pour des résultats qui correspondent à tes besoins.</p>
         </div>
@@ -247,8 +261,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2023 Info Univers. Tous droits réservés. <span>Christ Jordan</span></p>
-        <p>Fait avec ❤️ pour le <span>Gabon</span></p>
+        <p>&copy; 2026 Info Univers. Tous droits réservés. <span>Christ Jordan</span></p>
+        <p>Fait avec coeur pour le <span>Gabon</span></p>
       </div>
     </div>
   </footer>
