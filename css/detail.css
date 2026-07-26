@@ -160,8 +160,9 @@
  
     .ecole-hero-content {
       display: flex;
-      align-items: center;
-      gap: 2rem;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 15px;
     }
  
     .ecole-avatar-lg {
@@ -202,6 +203,14 @@
       align-items: center;
       gap: 4px;
     }
+
+    .ecole-hero-meta i {
+      font-size: 0.9rem;
+    }
+
+    .icon-adresse { color: red; }
+    .icon-telephone { color: #4ade80; }
+    .icon-horaire { color: #ffa64d; }
  
     .ecole-tags {
       display: flex;

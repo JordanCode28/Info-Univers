@@ -6,6 +6,7 @@
   <title>Annuaire — Info Univers</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="./css/annuaire.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
 
@@ -47,12 +48,12 @@
     <div class="filter-inner">
 
       <div class="filter-group">
-        <label>🔍 Recherche</label>
+        <label><i class="fas fa-magnifying-glass"></i> Recherche</label>
         <input type="text" id="searchInput" placeholder="Nom de l'école..." oninput="filtrer()" />
       </div>
 
       <div class="filter-group">
-        <label>🏙️ Ville</label>
+        <label><i class="fas fa-city"></i> Ville</label>
         <select id="villeFilter" onchange="updateQuartiers(); filtrer()">
           <option value="">Toutes les villes</option>
           <option value="Libreville">Libreville</option>
@@ -63,14 +64,14 @@
       </div>
 
       <div class="filter-group">
-        <label>📍 Quartier</label>
+        <label><i class="fas fa-map-marker-alt"></i> Quartier</label>
         <select id="quartierFilter" onchange="filtrer()">
           <option value="">Tous les quartiers</option>
         </select>
       </div>
 
       <div class="filter-group">
-        <label>🎓 Domaine</label>
+        <label><i class="fas fa-graduation-cap"></i> Domaine</label>
         <select id="domaineFilter" onchange="filtrer()">
           <option value="">Tous les domaines</option>
           <option value="Développement Web">Développement Web</option>
@@ -102,7 +103,7 @@
     </div>
 
     <div class="no-result" id="noResult">
-      <div class="nr-icon">🔍</div>
+      <div class="nr-icon"><i class="fas fa-search"></i></div>
       <h3>Aucun résultat trouvé</h3>
       <p>Aucun centre ne correspond à ta recherche. Essaie d'autres filtres.</p>
       <button class="btn-reset-full" onclick="resetFiltres()">Réinitialiser les filtres</button>
@@ -137,8 +138,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Info Univers · Projet de soutenance · <span>Christ Jordan</span></p>
-        <p>Fait avec ❤️ pour le <span>Gabon</span></p>
+        <p>© 2026 Info Univers · Projet de soutenance · <span>Christ Jordan</span></p>
+        <p>Fait avec <i class="fas fa-heart" style="color: red;"></i> pour le <span>Gabon</span></p>
       </div>
     </div>
   </footer>

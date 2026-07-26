@@ -1,5 +1,5 @@
 
-    // ── DONNÉES DES ÉCOLES ──────────────────────────────
+    // ── DONNÉES DES ÉCOLES --
     const ecoles = [
       {
         id: 1,
@@ -119,7 +119,7 @@
       "Oyem":         ["Centre"]
     };
 
-    // ── MISE À JOUR DES QUARTIERS ───────────────────────
+    // ── MISE À JOUR DES QUARTIERS --
     function updateQuartiers() {
       const ville = document.getElementById('villeFilter').value;
       const quartierSelect = document.getElementById('quartierFilter');
@@ -135,7 +135,7 @@
       }
     }
 
-    // ── CRÉER UNE CARTE ─────────────────────────────────
+    // ── CRÉER UNE CARTE --
     function creerCarte(ecole) {
       const tags = ecole.domaines.map(d => `<span class="tag">${d}</span>`).join('');
       return `
@@ -144,21 +144,21 @@
             <div class="ecole-avatar">${ecole.initiales}</div>
             <div class="ecole-card-header-info">
               <h3>${ecole.nom}</h3>
-              <p>📍 ${ecole.ville}, ${ecole.quartier}</p>
+              <p><i class="fas fa-map-marker-alt"></i> ${ecole.ville}, ${ecole.quartier}</p>
             </div>
           </div>
           <div class="ecole-card-body">
             <div class="ecole-tags">${tags}</div>
             <div class="ecole-card-footer">
-              <span class="ecole-location">📞 ${ecole.telephone}</span>
-              <a href="detail.html" class="btn-voir">Voir la fiche</a>
+              <span class="ecole-location"><i class="fas fa-mobile-screen-button"></i> ${ecole.telephone}</span>
+              <a href="detail.html?id=${ecole.id}" class="btn-voir">Voir la fiche</a>
             </div>
           </div>
         </div>
       `;
     }
 
-    // ── FILTRER ─────────────────────────────────────────
+    // ── FILTRER --
     function filtrer() {
       const search   = document.getElementById('searchInput').value.toLowerCase().trim();
       const ville    = document.getElementById('villeFilter').value;
@@ -176,7 +176,7 @@
       afficherResultats(resultats);
     }
 
-    // ── AFFICHER LES RÉSULTATS ──────────────────────────
+    // ── AFFICHER LES RÉSULTATS --
     function afficherResultats(resultats) {
       const grid     = document.getElementById('ecoleGrid');
       const noResult = document.getElementById('noResult');
@@ -193,7 +193,7 @@
       }
     }
 
-    // ── RÉINITIALISER ───────────────────────────────────
+    // ── RÉINITIALISER --
     function resetFiltres() {
       document.getElementById('searchInput').value  = '';
       document.getElementById('villeFilter').value  = '';
@@ -203,5 +203,5 @@
       afficherResultats(ecoles);
     }
 
-    // ── INIT ────────────────────────────────────────────
+    // ── INIT --
     afficherResultats(ecoles);

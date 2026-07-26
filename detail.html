@@ -6,10 +6,11 @@
   <title>Détail École — Info Univers</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="./css/detail.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
 
-  <!-- ── HEADER ───────────────────────────────────────── -->
+  <!--  HEADER  -->
   <header>
     <div class="header-inner">
       <a href="index.html" class="logo">
@@ -29,7 +30,7 @@
     </div>
   </header>
 
-  <!-- ── HERO ÉCOLE ────────────────────────────────────── -->
+  <!--  HERO ÉCOLE  -->
   <section class="ecole-hero">
     <div class="ecole-hero-inner">
       <div class="breadcrumb">
@@ -44,9 +45,9 @@
         <div class="ecole-hero-info">
           <h1>Institut Numérique de Libreville</h1>
           <div class="ecole-hero-meta">
-            <span>📍 Libreville, Akanda</span>
-            <span>📞 074 123 456</span>
-            <span>🕐 Ouvert aujourd'hui</span>
+            <span><i class="fas fa-location-dot icon-adresse"></i> Libreville, Akanda</span>
+            <span><i class="fas fa-phone icon-telephone"></i> 074 123 456</span>
+            <span><i class="fas fa-clock icon-horaire"></i> Ouvert aujourd'hui</span>
           </div>
           <div class="ecole-tags">
             <span class="tag">Développement Web</span>
@@ -58,12 +59,12 @@
     </div>
   </section>
 
-  <!-- ── BOUTON RETOUR ─────────────────────────────────── -->
+  <!--  BOUTON RETOUR  -->
   <div class="btn-retour-wrapper">
     <a href="./annuaire.html" class="btn-retour">← Retour à l'annuaire</a>
   </div>
 
-  <!-- ── CONTENU PRINCIPAL ─────────────────────────────── -->
+  <!--  CONTENU PRINCIPAL  -->
   <div class="main-content">
 
     <!-- Colonne gauche -->
@@ -71,38 +72,51 @@
 
       <!-- Présentation -->
       <div class="content-card">
-        <h2>📋 Présentation</h2>
+        <div class="auteur-avatar">
+          <i class="fa-solid fa-clipboard v-icon"></i>
+        </div>
         <p>L'Institut Numérique de Libreville est un centre de formation spécialisé dans les métiers du numérique, situé dans le quartier d'Akanda à Libreville. Fondé avec pour mission de rendre les formations informatiques accessibles à tous les Gabonais, l'établissement propose des cursus adaptés aux débutants comme aux profils plus avancés.</p>
         <p>Nos formateurs sont des professionnels du secteur, engagés à transmettre des compétences concrètes et directement applicables sur le marché du travail gabonais et international.</p>
       </div>
 
       <!-- Formations proposées -->
       <div class="content-card">
-        <h2>🎓 Formations proposées</h2>
+        <h2>
+    <!-- Icône de chapeau de diplômé Font Awesome -->
+    <i class="fa-solid fa-graduation-cap titre-icon"></i>
+    Formations proposées
+  </h2>
         <div class="formations-list">
           <div class="formation-item">
-            <div class="formation-icon">💻</div>
+            <div class="formation-icon">
+              <i class="fa-solid fa-laptop"></i></div>
             <div class="formation-info">
               <h4>Développement Web</h4>
               <span>HTML, CSS, JavaScript, PHP · Durée : 6 mois</span>
             </div>
           </div>
           <div class="formation-item">
-            <div class="formation-icon">🔐</div>
+            <div class="formation-icon">
+              <i class="fa-solid fa-lock"></i>
+            </div>
             <div class="formation-info">
               <h4>Cybersécurité</h4>
               <span>Sécurité réseau, ethical hacking · Durée : 4 mois</span>
             </div>
           </div>
           <div class="formation-item">
-            <div class="formation-icon">🎨</div>
+            <div class="formation-icon">
+              <i class="fa-solid fa-paint-brush"></i>
+            </div>
             <div class="formation-info">
               <h4>Web Design</h4>
               <span>Figma, UI/UX, Photoshop · Durée : 3 mois</span>
             </div>
           </div>
           <div class="formation-item">
-            <div class="formation-icon">📊</div>
+            <div class="formation-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
             <div class="formation-info">
               <h4>Bureautique</h4>
               <span>Word, Excel, PowerPoint · Durée : 1 mois</span>
@@ -113,31 +127,38 @@
 
       <!-- Horaires -->
       <div class="content-card">
-        <h2>🕐 Horaires d'ouverture</h2>
+        <h2>
+          <i class="fa-solid fa-clock titre-icon"></i>
+          Horaires d'ouverture
+        </h2>
         <div class="horaires-grid">
           <div class="horaire-item">
-            <span class="h-icon">📅</span>
+            <span class="h-icon">
+              <i class="fa-solid fa-calendar-days"></i></span>
             <div class="h-info">
               <strong>Lundi – Vendredi</strong>
               <span>08h00 – 18h00</span>
             </div>
           </div>
           <div class="horaire-item">
-            <span class="h-icon">📅</span>
+            <span class="h-icon">
+              <i class="fa-solid fa-calendar-days"></i></span>
             <div class="h-info">
               <strong>Samedi</strong>
               <span>08h00 – 13h00</span>
             </div>
           </div>
           <div class="horaire-item">
-            <span class="h-icon">🚫</span>
+            <span class="h-icon">
+              <i class="fa-solid fa-calendar-days"></i></span>
             <div class="h-info">
               <strong>Dimanche</strong>
               <span>Fermé</span>
             </div>
           </div>
           <div class="horaire-item">
-            <span class="h-icon">📅</span>
+            <span class="h-icon">
+              <i class="fa-solid fa-calendar-days"></i></span>
             <div class="h-info">
               <strong>Cours du soir</strong>
               <span>18h30 – 21h00</span>
@@ -153,38 +174,51 @@
 
       <!-- Contact -->
       <div class="sidebar-card">
-        <h3>📞 Informations de contact</h3>
+        <h3>
+          <i class="fa-solid fa-phone titre-icon"></i>
+          Informations de contact
+        </h3>
         <div class="contact-list">
           <div class="contact-item">
-            <div class="c-icon">📍</div>
+            <div class="c-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
             <div class="c-info">
               <label>Adresse</label>
               <p>Rue des Cocotiers, Akanda</p>
             </div>
           </div>
           <div class="contact-item">
-            <div class="c-icon">🏙️</div>
+            <div class="c-icon">
+              <i class="fa-solid fa-city"></i>
+            </div>
             <div class="c-info">
               <label>Ville / Quartier</label>
               <p>Libreville — Akanda</p>
             </div>
           </div>
           <div class="contact-item">
-            <div class="c-icon">📞</div>
+            <div class="c-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
             <div class="c-info">
               <label>Téléphone</label>
               <a href="tel:+24174123456">+241 74 123 456</a>
             </div>
           </div>
           <div class="contact-item">
-            <div class="c-icon">📱</div>
+            <div class="c-icon">
+              <i class="fa-solid fa-message"></i>
+            </div>
             <div class="c-info">
               <label>WhatsApp</label>
               <a href="#">+241 07X XXX XXX</a>
             </div>
           </div>
           <div class="contact-item">
-            <div class="c-icon">📧</div>
+            <div class="c-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
             <div class="c-info">
               <label>Email</label>
               <a href="mailto:contact@inl.ga">contact@inl.ga</a>
@@ -199,7 +233,10 @@
 
       <!-- Écoles similaires -->
       <div class="similar-card">
-        <h3>🏫 Écoles similaires</h3>
+        <h3>
+          <i class="fa-solid fa-school titre-icon"></i>
+          Écoles similaires
+        </h3>
         <div class="similar-list">
           <a href="./detail.html" class="similar-item">
             <div class="similar-avatar">GD</div>
@@ -228,7 +265,7 @@
     </div>
   </div>
 
-  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <!--  FOOTER  -->
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
@@ -256,11 +293,12 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Info Univers · Projet de soutenance · <span>Christ Jordan</span></p>
-        <p>Fait avec ❤️ pour le <span>Gabon</span></p>
+        <p>© 2026 Info Univers · Projet de soutenance · <span>Christ Jordan</span></p>
+        <p>Fait avec <i class="fas fa-heart" style="color: red;"></i> pour le <span>Gabon</span></p>
       </div>
     </div>
   </footer>
 
+  <script src="./js/detail.js"></script>
 </body>
 </html>
