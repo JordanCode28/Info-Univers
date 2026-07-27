@@ -211,6 +211,78 @@
         { icon: "fa-pen-nib", nom: "Web Design", detail: "Figma, UI/UX · Durée : 3 mois" },
         { icon: "fa-file-word", nom: "Bureautique", detail: "Word, Excel, PowerPoint · Durée : 1 mois" }
       ]
+    },
+    {
+      id: 13, nom: "Institut Africain d'Informatique (IAI)", initiales: "IAI", ville: "Libreville", quartier: "Charbonnages", telephone: "+241 60 44 68 56", whatsapp: "", email: "", adresse: "Quartier Charbonnages, Libreville",
+      domaines: ["Génie logiciel", "Réseaux et télécommunications", "Systèmes d'information", "Développement informatique"],
+      description: "L'Institut Africain d'Informatique (IAI) propose des formations informatiques à Libreville.",
+      formations: [{ icon: "fa-code", nom: "Génie logiciel", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux et télécommunications", detail: "Formation proposée par l'établissement" }, { icon: "fa-database", nom: "Systèmes d'information", detail: "Formation proposée par l'établissement" }, { icon: "fa-laptop-code", nom: "Développement informatique", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 14, nom: "Institut Facultaire d'Informatique et de Management (IFIM)", initiales: "IFIM", ville: "Libreville", quartier: "Ancien Waterman, Carrefour Nombakélé", telephone: "+241 66 25 53 11", whatsapp: "", email: "", adresse: "Ancien Waterman, Carrefour Nombakélé, Libreville",
+      domaines: ["Informatique de gestion", "Développement", "Réseaux", "Management des SI"],
+      description: "L'IFIM propose des formations en informatique et en management des systèmes d'information.",
+      formations: [{ icon: "fa-chart-line", nom: "Informatique de gestion", detail: "Formation proposée par l'établissement" }, { icon: "fa-code", nom: "Développement", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux", detail: "Formation proposée par l'établissement" }, { icon: "fa-briefcase", nom: "Management des SI", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 15, nom: "École Supérieure des Technologies Informatiques de Management (ESTIM)", initiales: "ESTIM", ville: "Libreville", quartier: "Libreville", telephone: "+241 07 47 93 33", whatsapp: "", email: "", adresse: "Libreville",
+      domaines: ["Informatique", "Technologies numériques", "Management informatique"],
+      description: "L'ESTIM propose des formations en informatique, technologies numériques et management informatique.",
+      formations: [{ icon: "fa-computer", nom: "Informatique", detail: "Formation proposée par l'établissement" }, { icon: "fa-microchip", nom: "Technologies numériques", detail: "Formation proposée par l'établissement" }, { icon: "fa-briefcase", nom: "Management informatique", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 16, nom: "ESGIS Gabon", initiales: "ESGIS", ville: "Libreville", quartier: "Libreville", telephone: "+241 65 45 45 24", whatsapp: "", email: "", adresse: "Libreville",
+      domaines: ["Génie logiciel", "Réseaux", "Cybersécurité", "Intelligence artificielle", "Data", "Administration systèmes"],
+      description: "ESGIS Gabon propose plusieurs filières liées aux technologies numériques et aux systèmes d'information.",
+      formations: [{ icon: "fa-code", nom: "Génie logiciel", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux", detail: "Formation proposée par l'établissement" }, { icon: "fa-shield-halved", nom: "Cybersécurité", detail: "Formation proposée par l'établissement" }, { icon: "fa-brain", nom: "Intelligence artificielle", detail: "Formation proposée par l'établissement" }, { icon: "fa-database", nom: "Data", detail: "Formation proposée par l'établissement" }, { icon: "fa-server", nom: "Administration systèmes", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 17, nom: "Higher Institute of Technology (HIT)", initiales: "HIT", ville: "Libreville", quartier: "Libreville", telephone: "+241 01 76 41 47", whatsapp: "", email: "", adresse: "Libreville",
+      domaines: ["Informatique", "Réseaux", "Maintenance", "Développement"],
+      description: "Le Higher Institute of Technology propose des formations en informatique et technologies associées.",
+      formations: [{ icon: "fa-computer", nom: "Informatique", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux", detail: "Formation proposée par l'établissement" }, { icon: "fa-screwdriver-wrench", nom: "Maintenance", detail: "Formation proposée par l'établissement" }, { icon: "fa-code", nom: "Développement", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 18, nom: "ESIITECH Gabon", initiales: "ESI", ville: "Libreville", quartier: "Rue Nkong Akore", telephone: "+241 76 23 76 38", whatsapp: "", email: "", adresse: "Rue Nkong Akore, Libreville",
+      domaines: ["Génie logiciel", "Cybersécurité", "Réseaux", "Cloud", "Développement Web"],
+      description: "ESIITECH Gabon propose des formations spécialisées dans les métiers du numérique.",
+      formations: [{ icon: "fa-code", nom: "Génie logiciel", detail: "Formation proposée par l'établissement" }, { icon: "fa-shield-halved", nom: "Cybersécurité", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux", detail: "Formation proposée par l'établissement" }, { icon: "fa-cloud", nom: "Cloud", detail: "Formation proposée par l'établissement" }, { icon: "fa-laptop-code", nom: "Développement Web", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 19, nom: "ISTIN Gabon", initiales: "ISTIN", ville: "Libreville", quartier: "Plaine Niger", telephone: "+241 60 47 47 07", whatsapp: "", email: "", adresse: "Plaine Niger, Libreville",
+      domaines: ["Informatique", "Réseaux", "Maintenance informatique"],
+      description: "ISTIN Gabon propose des formations en informatique, réseaux et maintenance informatique.",
+      formations: [{ icon: "fa-computer", nom: "Informatique", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux", detail: "Formation proposée par l'établissement" }, { icon: "fa-screwdriver-wrench", nom: "Maintenance informatique", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 20, nom: "CFP Informatique et Gestion", initiales: "CFP", ville: "Libreville", quartier: "Après Major Transport", telephone: "+241 77 56 34 89", whatsapp: "", email: "", adresse: "Après Major Transport, Libreville",
+      domaines: ["Informatique de gestion", "Bureautique", "Maintenance informatique"],
+      description: "Le CFP Informatique et Gestion propose des formations en gestion, bureautique et maintenance informatique.",
+      formations: [{ icon: "fa-chart-line", nom: "Informatique de gestion", detail: "Formation proposée par l'établissement" }, { icon: "fa-file-word", nom: "Bureautique", detail: "Formation proposée par l'établissement" }, { icon: "fa-screwdriver-wrench", nom: "Maintenance informatique", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 21, nom: "ITA (Institut des Techniques Avancées)", initiales: "ITA", ville: "Libreville", quartier: "Avenue de Cointet", telephone: "+241 01 74 69 51 / +241 62 78 66 00", whatsapp: "", email: "", adresse: "Avenue de Cointet, Libreville",
+      domaines: ["Développement informatique", "Réseaux", "Administration systèmes", "Maintenance"],
+      description: "L'ITA propose des formations techniques en développement, réseaux et administration systèmes.",
+      formations: [{ icon: "fa-laptop-code", nom: "Développement informatique", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux", detail: "Formation proposée par l'établissement" }, { icon: "fa-server", nom: "Administration systèmes", detail: "Formation proposée par l'établissement" }, { icon: "fa-screwdriver-wrench", nom: "Maintenance", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 22, nom: "SAHELYS", initiales: "SAH", ville: "Libreville", quartier: "Montagne Sainte", telephone: "+241 01 77 85 68 / +241 74 83 00 01", whatsapp: "", email: "", adresse: "Montagne Sainte, Libreville",
+      domaines: ["Développement Web", "Réseaux", "Cybersécurité", "Administration systèmes", "Solutions Microsoft"],
+      description: "SAHELYS propose des formations en développement, réseaux, cybersécurité et solutions Microsoft.",
+      formations: [{ icon: "fa-laptop-code", nom: "Développement Web", detail: "Formation proposée par l'établissement" }, { icon: "fa-network-wired", nom: "Réseaux", detail: "Formation proposée par l'établissement" }, { icon: "fa-shield-halved", nom: "Cybersécurité", detail: "Formation proposée par l'établissement" }, { icon: "fa-server", nom: "Administration systèmes", detail: "Formation proposée par l'établissement" }, { icon: "fa-windows", nom: "Solutions Microsoft", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 23, nom: "ACTE", initiales: "ACTE", ville: "Libreville", quartier: "Bord de mer / Lycée Léon Mba", telephone: "+241 66 53 34 12", whatsapp: "", email: "", adresse: "Bord de mer / Lycée Léon Mba, Libreville",
+      domaines: ["Développement informatique", "Bureautique", "Formation numérique"],
+      description: "ACTE propose des formations en développement informatique, bureautique et numérique.",
+      formations: [{ icon: "fa-laptop-code", nom: "Développement informatique", detail: "Formation proposée par l'établissement" }, { icon: "fa-file-word", nom: "Bureautique", detail: "Formation proposée par l'établissement" }, { icon: "fa-graduation-cap", nom: "Formation numérique", detail: "Formation proposée par l'établissement" }]
+    },
+    {
+      id: 24, nom: "Integral Technologies S.A.", initiales: "ITS", ville: "Libreville", quartier: "Zone Industrielle d'Oloumi", telephone: "+241 01 76 17 56 / +241 65 66 26 19", whatsapp: "", email: "", adresse: "Zone Industrielle d'Oloumi, Libreville",
+      domaines: ["Réseaux Cisco", "Microsoft", "Administration systèmes", "Sécurité informatique"],
+      description: "Integral Technologies S.A. propose des formations en réseaux, systèmes et sécurité informatique.",
+      formations: [{ icon: "fa-network-wired", nom: "Réseaux Cisco", detail: "Formation proposée par l'établissement" }, { icon: "fa-windows", nom: "Microsoft", detail: "Formation proposée par l'établissement" }, { icon: "fa-server", nom: "Administration systèmes", detail: "Formation proposée par l'établissement" }, { icon: "fa-shield-halved", nom: "Sécurité informatique", detail: "Formation proposée par l'établissement" }]
     }
   ];
 
@@ -281,14 +353,14 @@
         <div class="c-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
         <div class="c-info"><label>Téléphone</label><a href="tel:${ecole.telephone}">${ecole.telephone}</a></div>
       </div>
-      <div class="contact-item">
+      ${ecole.whatsapp ? `<div class="contact-item">
         <div class="c-icon"><i class="fa-solid fa-phone titre-icon"></i></div>
         <div class="c-info"><label>WhatsApp</label><a href="#">${ecole.whatsapp}</a></div>
-      </div>
-      <div class="contact-item">
+      </div>` : ''}
+      ${ecole.email ? `<div class="contact-item">
         <i class="fa-regular fa-envelope"></i>
         <div class="c-info"><label>Email</label><a href="mailto:${ecole.email}">${ecole.email}</a></div>
-      </div>
+      </div>` : ''}
     `;
 
     // Écoles similaires — même domaine, école différente

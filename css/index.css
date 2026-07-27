@@ -325,6 +325,8 @@
       transition: all 0.25s ease;
       position: relative;
       overflow: hidden;
+      display: block;
+      text-decoration: none;
     }
  
     .domaine-card::before {
@@ -409,7 +411,7 @@
       gap: 1rem;
     }
  
-    .ecole-avatar {
+   /* .ecole-avatar {
       width: 52px; height: 52px;
       background: rgba(255,255,255,0.15);
       border-radius: 10px;
@@ -420,6 +422,13 @@
       font-weight: 800;
       font-size: 1.3rem;
       color: var(--white);
+      flex-shrink: 0;
+    } */
+
+    .ecole-avatar img {
+      width: 52px; height: 52px;
+      border-radius: 10px;
+      object-fit: cover;
       flex-shrink: 0;
     }
  
