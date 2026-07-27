@@ -21,12 +21,12 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
-                node-version: '20' 
+                node-version: '24' 
                 cache: 'npm'
             - name: Install deps
-              run: npm install
+              run: npm ci
             - name: Build with Vite
-              run: npx vite build
+              run: npm run build
               
               env:
                 VITE_BASE: /Info-Univers/
