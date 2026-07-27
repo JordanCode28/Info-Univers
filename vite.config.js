@@ -2,6 +2,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
     base: '/Info-Univers/',
+    publicDir: 'js',
     build: {
         rollupOptions: {
             input: {
