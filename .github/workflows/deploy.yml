@@ -1,8 +1,7 @@
 name: Deploy to GitHub Pages
 on:
   push:
-    branches:
-      - christ
+    branches: [ "christ" ]
   workflow_dispatch:
 permissions:
   contents: read
@@ -14,14 +13,16 @@ concurrency:
   cancel-in-progress: false
   
 jobs:
-    build-and-deploy:
+    build:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/setup-node@v3
+              uses: actions/checkout@v4
+            - name: Setup Node
+              uses: actions/setup-node@v4
               with:
-                node-version: '20'
-                cache: 'pnpm'
+                node-version: '20' 
+                cache: 'npm'
             - name: Install deps
               run: npm install
             - name: Build with Vite
@@ -31,9 +32,16 @@ jobs:
                 VITE_BASE: /Info-Univers/
               
             - name: upload artifact
-              uses: actions/upload-pages-artifact@v1
+              uses: actions/upload-pages-artifact@v3
               with:
                 path: './dist'
-            - name: Deploy to GitHub Pages
-              id: deployment
-              uses: actions/deploy-pages@v4          
+          deploy:        
+             needs: build
+             runs-on: ubuntu-latest
+             environment:
+              name: github-pages
+              url: ${{ steps.deployment.outputs.page_url }}
+             steps:          
+             - name: Deploy to GitHub Pages
+               id: deployment
+               uses: actions/deploy-pages@v4          
