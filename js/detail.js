@@ -316,98 +316,357 @@ const ecoles = [
         detail: "Maintenance des équipements informatiques"
       }
     ]
+  },
+  {
+    id: 8,
+    nom: "École Supérieure des Technologies Informatiques de Management (ESTIM)",
+    initiales: "ESTIM",
+    ville: "Libreville",
+    quartier: "Libreville",
+    telephone: "+241 07 47 93 33",
+    whatsapp: "",
+    email: "",
+    adresse: "Libreville",
+    domaines: [
+      "Informatique",
+      "Technologies numériques",
+      "Management informatique"
+    ],
+    description:
+      "ESTIM propose des formations en informatique et en management numérique, avec un accent sur l'innovation et l'application pratique.",
+    formations: [
+      {
+        icon: "fa-code",
+        nom: "Informatique",
+        detail: "Base de l'informatique et des technologies numériques"
+      },
+      {
+        icon: "fa-network-wired",
+        nom: "Technologies numériques",
+        detail: "Outils et méthodologies pour les services numériques"
+      },
+      {
+        icon: "fa-briefcase",
+        nom: "Management informatique",
+        detail: "Gestion des projets IT et des équipes techniques"
+      }
+    ]
+  },
+  {
+    id: 9,
+    nom: "ITA (Institut des Techniques Avancées)",
+    initiales: "ITA",
+    ville: "Libreville",
+    quartier: "Avenue de Cointet",
+    telephone: "+241 01 74 69 51",
+    whatsapp: "",
+    email: "",
+    adresse: "Avenue de Cointet, Libreville",
+    domaines: [
+      "Développement informatique",
+      "Réseaux",
+      "Administration systèmes",
+      "Maintenance"
+    ],
+    description:
+      "ITA prépare aux métiers de l'informatique avancée avec des parcours en développement, réseaux et administration systèmes.",
+    formations: [
+      {
+        icon: "fa-laptop-code",
+        nom: "Développement informatique",
+        detail: "Programmation et création d'applications"
+      },
+      {
+        icon: "fa-network-wired",
+        nom: "Réseaux",
+        detail: "Conception et administration d'infrastructures réseau"
+      },
+      {
+        icon: "fa-server",
+        nom: "Administration systèmes",
+        detail: "Gestion de serveurs et d'environnements IT"
+      }
+    ]
+  },
+  {
+    id: 10,
+    nom: "ISTIN Gabon",
+    initiales: "ISTIN",
+    ville: "Libreville",
+    quartier: "Plaine Niger",
+    telephone: "+241 60 47 47 07",
+    whatsapp: "",
+    email: "",
+    adresse: "Plaine Niger, Libreville",
+    domaines: [
+      "Informatique",
+      "Réseaux",
+      "Maintenance informatique"
+    ],
+    description:
+      "ISTIN Gabon offre des programmes axés sur l'informatique, les réseaux et la maintenance des systèmes pour répondre aux besoins locaux.",
+    formations: [
+      {
+        icon: "fa-code",
+        nom: "Informatique",
+        detail: "Compétences de base et avancées en technologies IT"
+      },
+      {
+        icon: "fa-network-wired",
+        nom: "Réseaux",
+        detail: "Installation et administration de réseaux" 
+      },
+      {
+        icon: "fa-screwdriver-wrench",
+        nom: "Maintenance informatique",
+        detail: "Réparation et support des équipements"
+      }
+    ]
+  },
+  {
+    id: 11,
+    nom: "SAHELYS",
+    initiales: "SAH",
+    ville: "Libreville",
+    quartier: "Montagne Sainte",
+    telephone: "+241 74 83 00 01",
+    whatsapp: "",
+    email: "",
+    adresse: "Montagne Sainte, Libreville",
+    domaines: [
+      "Développement Web",
+      "Cybersécurité",
+      "Réseaux",
+      "Administration systèmes"
+    ],
+    description:
+      "SAHELYS est un centre de formation spécialisé en développement web, cybersécurité et infrastructures réseau.",
+    formations: [
+      {
+        icon: "fa-code",
+        nom: "Développement Web",
+        detail: "Création de sites et applications web modernes"
+      },
+      {
+        icon: "fa-shield-halved",
+        nom: "Cybersécurité",
+        detail: "Protection des données et des systèmes"
+      },
+      {
+        icon: "fa-server",
+        nom: "Administration systèmes",
+        detail: "Gestion des serveurs et des environnements IT"
+      }
+    ]
+  },
+  {
+    id: 12,
+    nom: "ACTE",
+    initiales: "ACTE",
+    ville: "Libreville",
+    quartier: "Bord de mer / Lycée Léon Mba",
+    telephone: "+241 66 53 34 12",
+    whatsapp: "",
+    email: "",
+    adresse: "Bord de mer / Lycée Léon Mba, Libreville",
+    domaines: [
+      "Développement informatique",
+      "Formation numérique",
+      "Bureautique"
+    ],
+    description:
+      "ACTE propose des formations pratiques en informatique, bureautique et outils numériques pour des parcours professionnalisants.",
+    formations: [
+      {
+        icon: "fa-laptop-code",
+        nom: "Développement informatique",
+        detail: "Introduction au développement logiciel"
+      },
+      {
+        icon: "fa-file-word",
+        nom: "Bureautique",
+        detail: "Maîtrise des outils bureautiques essentiels"
+      },
+      {
+        icon: "fa-chart-line",
+        nom: "Formation numérique",
+        detail: "Compétences digitales pour le monde professionnel"
+      }
+    ]
+  },
+  {
+    id: 13,
+    nom: "Integral Technologies S.A.",
+    initiales: "ITS",
+    ville: "Libreville",
+    quartier: "Zone Industrielle d'Oloumi",
+    telephone: "+241 65 66 26 19",
+    whatsapp: "",
+    email: "",
+    adresse: "Zone Industrielle d'Oloumi, Libreville",
+    domaines: [
+      "Réseaux Cisco",
+      "Microsoft",
+      "Administration systèmes",
+      "Sécurité informatique"
+    ],
+    description:
+      "Integral Technologies S.A. forme aux technologies Cisco, Microsoft et à la sécurité des systèmes d'information.",
+    formations: [
+      {
+        icon: "fa-network-wired",
+        nom: "Réseaux Cisco",
+        detail: "Certifications et administration réseau Cisco"
+      },
+      {
+        icon: "fa-windows",
+        nom: "Microsoft",
+        detail: "Solutions Microsoft pour entreprises"
+      },
+      {
+        icon: "fa-shield-halved",
+        nom: "Sécurité informatique",
+        detail: "Protection et audit des infrastructures IT"
+      }
+    ]
+  },
+  {
+    id: 14,
+    nom: "CFP Informatique et Gestion",
+    initiales: "CFP",
+    ville: "Libreville",
+    quartier: "Après Major Transport",
+    telephone: "+241 77 56 34 89",
+    whatsapp: "",
+    email: "",
+    adresse: "Après Major Transport, Libreville",
+    domaines: [
+      "Informatique de gestion",
+      "Maintenance informatique",
+      "Bureautique"
+    ],
+    description:
+      "CFP Informatique et Gestion propose des cursus orientés vers la gestion informatique, la maintenance et les outils bureautiques.",
+    formations: [
+      {
+        icon: "fa-chart-line",
+        nom: "Informatique de gestion",
+        detail: "Systèmes d'information pour la gestion d'entreprise"
+      },
+      {
+        icon: "fa-screwdriver-wrench",
+        nom: "Maintenance informatique",
+        detail: "Entretien et dépannage des équipements"
+      },
+      {
+        icon: "fa-file-word",
+        nom: "Bureautique",
+        detail: "Maîtrise des principaux outils de productivité"
+      }
+    ]
   }
 ];
 
-  // Lire l'id dans l'URL
+function renderDetailPage() {
   const params = new URLSearchParams(window.location.search);
-  const id = parseInt(params.get('id'));
+  const id = params.has('id') ? parseInt(params.get('id'), 10) : null;
   const ecole = ecoles.find(e => e.id === id);
 
- if (!ecole) {
-    document.querySelector('.ecole-hero').style.display = 'none';
-    document.querySelector('.btn-retour-wrapper').style.display = 'none';
-    document.querySelector('.main-content').innerHTML = `
-      <div style="grid-column:1/-1;text-align:center;padding:5rem 2rem;font-family:'Poppins',sans-serif;">
-        <div style="font-size:3rem;color:#F5820D;margin-bottom:1rem;">
-          <i class="fa-solid fa-circle-question"></i>
+  console.log('detail.js:', { id, ecole: ecole?.nom });
+
+  if (!ecole) {
+    const hero = document.querySelector('.ecole-hero');
+    const retour = document.querySelector('.btn-retour-wrapper');
+    const mainContent = document.querySelector('.main-content');
+
+    if (hero) hero.style.display = 'none';
+    if (retour) retour.style.display = 'none';
+    if (mainContent) {
+      mainContent.innerHTML = `
+        <div style="grid-column:1/-1;text-align:center;padding:5rem 2rem;font-family:'Poppins',sans-serif;">
+          <div style="font-size:3rem;color:#F5820D;margin-bottom:1rem;">
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <h2 style="color:#1A3C6E;margin-bottom:0.75rem;">Aucune école sélectionnée</h2>
+          <p style="color:#555;margin-bottom:2rem;">Choisis un établissement depuis l'annuaire pour voir sa fiche détaillée.</p>
+          <a href="./annuaire.html" style="display:inline-block;background:#1A3C6E;color:#fff;padding:0.85rem 2rem;border-radius:8px;text-decoration:none;font-weight:600;">← Voir l'annuaire</a>
         </div>
-        <h2 style="color:#1A3C6E;margin-bottom:0.75rem;">Aucune école sélectionnée</h2>
-        <p style="color:#555;margin-bottom:2rem;">Choisis un établissement depuis l'annuaire pour voir sa fiche détaillée.</p>
-        <a href="./annuaire.html" style="display:inline-block;background:#1A3C6E;color:#fff;padding:0.85rem 2rem;border-radius:8px;text-decoration:none;font-weight:600;">← Voir l'annuaire</a>
-      </div>
-    `;
-} else {
-    // Breadcrumb
-    document.querySelector('.breadcrumb').innerHTML = `
-      <a href="index.html">Accueil</a>
-      <span>›</span>
-      <a href="annuaire.html">Annuaire</a>
-      <span>›</span>
-      <span>${ecole.nom}</span>
-    `;
-
-    // Hero
-    document.querySelector('.ecole-avatar-lg').textContent = ecole.initiales;
-    document.querySelector('.ecole-hero-info h1').textContent = ecole.nom;
-    document.querySelector('.ecole-hero-meta').innerHTML = `
-      <span><i class="fa-solid fa-location-dot titre-icon"></i> ${ecole.ville}, ${ecole.quartier}</span>
-      <span><i class="fa-solid fa-mobile-screen-button"></i> ${ecole.telephone}</span>
-      <span><i class="fa-solid fa-clock"></i>Ouvert aujourd'hui</span>
-    `;
-    document.querySelector('.ecole-tags').innerHTML =
-      ecole.domaines.map(d => `<span class="tag">${d}</span>`).join('');
-
-    // Présentation
-    document.querySelector('.content-card p').textContent = ecole.description;
-
-    // Formations
-    document.querySelector('.formations-list').innerHTML = ecole.formations.map(f => `
-      <div class="formation-item">
-        <div class="formation-icon"><i class="fas ${f.icon}"></i></div>
-        <div class="formation-info">
-          <h4>${f.nom}</h4>
-          <span>${f.detail}</span>
-        </div>
-      </div>
-    `).join('');
-
-    // Sidebar contact
-    document.querySelector('.contact-list').innerHTML = `
-      <div class="contact-item">
-        <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
-        <div class="c-info"><label>Adresse</label><p>${ecole.adresse}</p></div>
-      </div>
-      <div class="contact-item">
-        <div class="c-icon"><i class="fa-solid fa-city"></i></div>
-        <div class="c-info"><label>Ville / Quartier</label><p>${ecole.ville} — ${ecole.quartier}</p></div>
-      </div>
-      <div class="contact-item">
-        <div class="c-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
-        <div class="c-info"><label>Téléphone</label><a href="tel:${ecole.telephone}">${ecole.telephone}</a></div>
-      </div>
-      ${ecole.whatsapp ? `<div class="contact-item">
-        <div class="c-icon"><i class="fa-solid fa-phone titre-icon"></i></div>
-        <div class="c-info"><label>WhatsApp</label><a href="#">${ecole.whatsapp}</a></div>
-      </div>` : ''}
-      ${ecole.email ? `<div class="contact-item">
-        <i class="fa-regular fa-envelope"></i>
-        <div class="c-info"><label>Email</label><a href="mailto:${ecole.email}">${ecole.email}</a></div>
-      </div>` : ''}
-    `;
-
-    // Écoles similaires — même domaine, école différente
-const similaires = ecoles
-  .filter(e => e.id !== ecole.id && e.domaines.some(d => ecole.domaines.includes(d)))
-  .slice(0, 3);
-
-document.querySelector('.similar-list').innerHTML = similaires.map(s => `
-  <a href="detail.html?id=${s.id}" class="similar-item">
-    <div class="similar-avatar">${s.initiales}</div>
-    <div class="similar-info">
-      <h4>${s.nom}</h4>
-      <span>${s.ville} · ${s.quartier}</span>
-    </div>
-  </a>
-`).join('');
+      `;
+    }
+    return;
   }
+
+  document.querySelector('.breadcrumb').innerHTML = `
+    <a href="index.html">Accueil</a>
+    <span>›</span>
+    <a href="annuaire.html">Annuaire</a>
+    <span>›</span>
+    <span>${ecole.nom}</span>
+  `;
+
+  document.querySelector('.ecole-avatar-lg').textContent = ecole.initiales;
+  document.querySelector('.ecole-hero-info h1').textContent = ecole.nom;
+  document.querySelector('.ecole-hero-meta').innerHTML = `
+    <span><i class="fa-solid fa-location-dot titre-icon"></i> ${ecole.ville}, ${ecole.quartier}</span>
+    <span><i class="fa-solid fa-mobile-screen-button"></i> ${ecole.telephone}</span>
+    <span><i class="fa-solid fa-clock"></i>Ouvert aujourd'hui</span>
+  `;
+  document.querySelector('.ecole-tags').innerHTML = ecole.domaines.map(d => `<span class="tag">${d}</span>`).join('');
+
+  const contentParagraphs = document.querySelectorAll('.content-card p');
+  if (contentParagraphs.length > 0) {
+    contentParagraphs[0].textContent = ecole.description;
+    for (let i = 1; i < contentParagraphs.length; i++) {
+      contentParagraphs[i].remove();
+    }
+  }
+
+  document.querySelector('.formations-list').innerHTML = ecole.formations.map(f => `
+    <div class="formation-item">
+      <div class="formation-icon"><i class="fas ${f.icon}"></i></div>
+      <div class="formation-info">
+        <h4>${f.nom}</h4>
+        <span>${f.detail}</span>
+      </div>
+    </div>
+  `).join('');
+
+  document.querySelector('.contact-list').innerHTML = `
+    <div class="contact-item">
+      <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+      <div class="c-info"><label>Adresse</label><p>${ecole.adresse}</p></div>
+    </div>
+    <div class="contact-item">
+      <div class="c-icon"><i class="fa-solid fa-city"></i></div>
+      <div class="c-info"><label>Ville / Quartier</label><p>${ecole.ville} — ${ecole.quartier}</p></div>
+    </div>
+    <div class="contact-item">
+      <div class="c-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+      <div class="c-info"><label>Téléphone</label><a href="tel:${ecole.telephone}">${ecole.telephone}</a></div>
+    </div>
+    ${ecole.whatsapp ? `<div class="contact-item">
+      <div class="c-icon"><i class="fa-solid fa-phone titre-icon"></i></div>
+      <div class="c-info"><label>WhatsApp</label><a href="#">${ecole.whatsapp}</a></div>
+    </div>` : ''}
+    ${ecole.email ? `<div class="contact-item">
+      <div class="c-icon"><i class="fa-regular fa-envelope"></i></div>
+      <div class="c-info"><label>Email</label><a href="mailto:${ecole.email}">${ecole.email}</a></div>
+    </div>` : ''}
+  `;
+
+  const similaires = ecoles
+    .filter(e => e.id !== ecole.id && e.domaines.some(d => ecole.domaines.includes(d)))
+    .slice(0, 3);
+
+  document.querySelector('.similar-list').innerHTML = similaires.map(s => `
+    <a href="detail.html?id=${s.id}" class="similar-item">
+      <div class="similar-avatar">${s.initiales}</div>
+      <div class="similar-info">
+        <h4>${s.nom}</h4>
+        <span>${s.ville} · ${s.quartier}</span>
+      </div>
+    </a>
+  `).join('');
+}
+
+renderDetailPage();
