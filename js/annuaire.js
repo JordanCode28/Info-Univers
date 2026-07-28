@@ -1,6 +1,4 @@
 
-    // ── DONNÉES DES ÉCOLES --
-    // ── DONNÉES DES ÉCOLES --
 const ecoles = [
   {
     id: 1,
