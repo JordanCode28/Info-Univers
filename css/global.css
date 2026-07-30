@@ -1,0 +1,279 @@
+/* Global responsive header and burger menu */
+
+:root {
+  --nav-overlay: rgba(0, 0, 0, 0.45);
+}
+
+.nav-toggle {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  z-index: 210;
+  border: none;
+  background: transparent;
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0;
+  transition: background 0.2s ease;
+}
+
+.nav-toggle:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.nav-toggle span,
+.nav-toggle span::before,
+.nav-toggle span::after {
+  display: block;
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background: #ffffff;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.nav-toggle span {
+  position: relative;
+}
+
+.nav-toggle span::before {
+  content: '';
+  top: -7px;
+}
+
+.nav-toggle span::after {
+  content: '';
+  top: 7px;
+}
+
+header.nav-open .nav-toggle span {
+  opacity: 0;
+}
+
+header.nav-open .nav-toggle span::before {
+  transform: translateY(7px) rotate(45deg);
+}
+
+header.nav-open .nav-toggle span::after {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    padding-right: 4.5rem;
+  }
+
+  nav a {
+    display: block !important;
+  }
+}
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--nav-overlay);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 150;
+}
+
+header.nav-open + .nav-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    position: relative;
+    padding-right: 4.5rem;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  nav {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: min(340px, calc(100vw - 1rem));
+    height: calc(100vh - 70px);
+    background: var(--blue);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.4rem 1rem;
+    gap: 1rem;
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    box-shadow: -10px 0 40px rgba(0, 0, 0, 0.25);
+    z-index: 160;
+  }
+
+  header.nav-open nav {
+    right: 0;
+  }
+
+  nav a {
+    display: block !important;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem 0.65rem;
+    border-radius: 12px;
+    color: var(--white);
+  }
+
+  nav a:hover,
+  nav a.active {
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .btn-nav {
+    width: 100%;
+    text-align: center;
+    padding: 0.85rem 0.85rem;
+  }
+
+  .header-inner {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .header-inner {
+    padding: 0 0.85rem;
+  }
+
+  .logo-text {
+    font-size: 1rem;
+  }
+
+  .logo-text span {
+    font-size: 0.6rem;
+  }
+
+  nav {
+    width: 100%;
+    max-width: none;
+    padding: 1.2rem 0.9rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    max-width: calc(100vw - 2rem);
+    width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+
+  .search-box input {
+    padding: 0.95rem 1rem;
+  }
+
+  .search-box button {
+    padding: 0 1.2rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .search-box input {
+    padding: 0.85rem 0.9rem;
+  }
+
+  .search-box button {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+
+  .search-box input {
+    padding: 0.95rem 1rem;
+  }
+
+  .search-box button {
+    padding: 0 1.2rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .search-box input {
+    padding: 0.85rem 0.9rem;
+  }
+
+  .search-box button {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .header-inner {
+    padding: 0 0.75rem;
+    height: 62px;
+  }
+
+  .logo-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+
+  .nav-toggle {
+    width: 34px;
+    height: 34px;
+  }
+
+  nav {
+    top: 62px;
+  }
+}
+
+@media (max-width: 240px) {
+  .header-inner {
+    padding: 0 0.55rem;
+  }
+
+  .logo-text {
+    font-size: 0.9rem;
+  }
+
+  .logo-text span {
+    font-size: 0.52rem;
+  }
+
+  .nav-toggle {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 200px) {
+  .logo-text span {
+    display: none;
+  }
+
+  nav {
+    padding: 0.8rem;
+  }
+
+  .btn-nav {
+    font-size: 0.9rem;
+  }
+}

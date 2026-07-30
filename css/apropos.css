@@ -499,7 +499,6 @@
     @media (max-width: 768px) {
       .header-inner { padding: 0 1rem; }
       nav { gap: 1rem; }
-      nav a:not(.btn-nav) { display: none; }
       .problem-grid { grid-template-columns: 1fr; }
       .problem-visual { display: none; }
       .auteur-card { flex-direction: column; text-align: center; }

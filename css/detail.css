@@ -602,7 +602,6 @@
     @media (max-width: 768px) {
       .header-inner { padding: 0 1rem; }
       nav { gap: 1rem; }
-      nav a:not(.btn-nav) { display: none; }
       .ecole-hero-content { flex-direction: column; align-items: flex-start; gap: 1rem; }
       .horaires-grid { grid-template-columns: 1fr; }
       .footer-top { grid-template-columns: 1fr; gap: 1.5rem; }

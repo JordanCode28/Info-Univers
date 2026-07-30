@@ -520,7 +520,6 @@
     @media (max-width: 768px) {
       .header-inner { padding: 0 1rem; }
       nav { gap: 1rem; }
-      nav a:not(.btn-nav) { display: none; }
       .filter-inner { flex-direction: column; }
       .filter-group { min-width: 100%; }
       .filter-actions { width: 100%; }
