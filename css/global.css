@@ -82,7 +82,7 @@ header.nav-open .nav-toggle span::after {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.25s ease;
-  z-index: 150;
+  z-index: 90;
 }
 
 header.nav-open + .nav-overlay {

@@ -32,18 +32,18 @@ const ecoles = [
   },
   {
     id: 3,
-    nom: "ESGIS Gabon",
-    initiales: "ESGIS",
-    logo: "./assets/icon/logo-esgis.png",
+    nom: "ESSIG-USIA",
+    initiales: "",
+    logo: "./assets/icon/logo-ESSIG.png",
     ville: "Libreville",
-    quartier: "Libreville",
-    telephone: "+241 65 45 45 24",
+    quartier: "Ozangué",
+    telephone: "066 97 57 47",
     domaines: [
-      "Génie logiciel",
+      "Big Data",
       "Cybersécurité",
       "Intelligence artificielle",
-      "Data Science",
-      "Administration systèmes"
+      "Développement Logiciel (Génie Logiciel)",
+      "Réseaux & Systèmes"
     ]
   },
   {
@@ -66,7 +66,7 @@ const ecoles = [
     id: 5,
     nom: "ESIITECH Gabon",
     initiales: "ESI",
-    logo: "./assets/icon/logo-esiitech.png",
+    logo: "./assets/icon/logo-ESIITECH.png",
     ville: "Libreville",
     quartier: "Rue Nkong Akore",
     telephone: "+241 76 23 76 38",
@@ -82,7 +82,7 @@ const ecoles = [
     id: 6,
     nom: "Institut Facultaire d'Informatique et de Management (IFIM)",
     initiales: "IFIM",
-    logo: "./assets/icon/logo-ifim.png",
+    logo: "./assets/icon/logo-IFIM.png",
     ville: "Libreville",
     quartier: "Ancien Waterman, Carrefour Nombakélé",
     telephone: "+241 66 25 53 11",
@@ -95,11 +95,11 @@ const ecoles = [
   },
   {
     id: 7,
-    nom: "Higher Institute of Technology (HIT)",
-    initiales: "HIT",
-    logo: "./assets/icon/logo-hit.png",
+    nom: "Institut Supérieur de Technologie (IST)",
+    initiales: "",
+    logo: "./assets/icon/logo-IST.png",
     ville: "Libreville",
-    quartier: "Libreville",
+    quartier: "Bikélé",
     telephone: "+241 01 76 41 47",
     domaines: [
       "Informatique",
@@ -112,7 +112,7 @@ const ecoles = [
     id: 8,
     nom: "École Supérieure des Technologies Informatiques de Management (ESTIM)",
     initiales: "ESTIM",
-    logo: "./assets/icon/logo-estim.png",
+    logo: "./assets/icon/logo-ESTIM.webp",
     ville: "Libreville",
     quartier: "Libreville",
     telephone: "+241 07 47 93 33",
@@ -126,7 +126,7 @@ const ecoles = [
     id: 9,
     nom: "ITA (Institut des Techniques Avancées)",
     initiales: "ITA",
-    logo: "./assets/icon/logo-ita.png",
+    logo: "./assets/icon/logo-ITA.png",
     ville: "Libreville",
     quartier: "Avenue de Cointet",
     telephone: "+241 01 74 69 51",
@@ -305,6 +305,11 @@ const ecoles = [
       updateQuartiers();
       afficherResultats(ecoles);
     }
+
+    // Expose functions for inline handlers in module context
+    window.filtrer = filtrer;
+    window.updateQuartiers = updateQuartiers;
+    window.resetFiltres = resetFiltres;
 
     // ── INIT : appliquer le domaine transmis depuis l'accueil --
     const domaineDepuisAccueil = new URLSearchParams(window.location.search).get('domaine');

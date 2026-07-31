@@ -1,5 +1,4 @@
-
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
       --blue:       #1A3C6E;
@@ -520,6 +519,10 @@
     @media (max-width: 768px) {
       .header-inner { padding: 0 1rem; }
       nav { gap: 1rem; }
+      .filter-bar {
+        position: static;
+        padding: 1.2rem 1rem;
+      }
       .filter-inner { flex-direction: column; }
       .filter-group { min-width: 100%; }
       .filter-actions { width: 100%; }

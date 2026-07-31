@@ -2,6 +2,7 @@ const ecoles = [
   {
     id: 1,
     nom: "ECOLE241",
+    logo: "./assets/icon/logo-ecole241.jpg",
     initiales: "241",
     ville: "Libreville",
     quartier: "Boulevard Triomphal",
@@ -46,6 +47,7 @@ const ecoles = [
     id: 2,
     nom: "Institut Africain d'Informatique (IAI)",
     initiales: "IAI",
+    logo: "./assets/icon/logo-IAI.png",
     ville: "Libreville",
     quartier: "Charbonnages",
     telephone: "+241 60 44 68 56",
@@ -87,23 +89,24 @@ const ecoles = [
 
   {
     id: 3,
-    nom: "ESGIS Gabon",
-    initiales: "ESGIS",
+    nom: "ESSIG-USIA",
+    initiales: "",
+    logo: "./assets/icon/logo-ESSIG.png",
     ville: "Libreville",
-    quartier: "Libreville",
-    telephone: "+241 65 45 45 24",
+    quartier: "Ozangué",
+    telephone: "066 97 57 47",
     whatsapp: "",
-    email: "",
+    email: "essigcours@gmail.com",
     adresse: "Libreville",
     domaines: [
-      "Génie logiciel",
+      "Big Data",
       "Cybersécurité",
       "Intelligence artificielle",
-      "Data Science",
-      "Administration systèmes"
+      "Développement Logiciel (Génie Logiciel)",
+      "Réseaux & Systèmes"
     ],
     description:
-      "ESGIS Gabon est une école supérieure proposant plusieurs formations dans les technologies numériques, le génie logiciel et les systèmes d'information.",
+      "Le Groupe ESSIG-USIA est une grande institution d'enseignement supérieur privé au Gabon, réputée pour ses formations professionnelles axées sur l'entrepreneuriat et l'insertion sur le marché de l'emploi. L'école se distingue par sa vision résumée par sa direction : « Un étudiant, une micro-entreprise ».",
 
     formations: [
       {
@@ -128,7 +131,7 @@ const ecoles = [
       },
       {
         icon: "fa-server",
-        nom: "Administration systèmes",
+        nom: "Réseaux & Systèmes",
         detail: "Gestion des serveurs et infrastructures"
       }
     ]
@@ -137,7 +140,8 @@ const ecoles = [
   {
     id: 4,
     nom: "CYBERSCHOOL",
-    initiales: "CS",
+    initiales: "",
+    logo: "./assets/icon/logo-cyberschool.png",
     ville: "Libreville",
     quartier: "Nzeng-Ayong",
     telephone: "+241 07 41 86 71",
@@ -186,12 +190,13 @@ const ecoles = [
   {
     id: 5,
     nom: "ESIITECH Gabon",
-    initiales: "ESI",
+    initiales: "",
+    logo: "./assets/icon/logo-ESIITECH.png",
     ville: "Libreville",
     quartier: "Rue Nkong Akore",
     telephone: "+241 76 23 76 38",
     whatsapp: "",
-    email: "",
+    email: "contact@esiitech-gabon.com",
     adresse: "Rue Nkong Akore, Libreville",
     domaines: [
       "Génie logiciel",
@@ -235,12 +240,13 @@ const ecoles = [
   {
     id: 6,
     nom: "Institut Facultaire d'Informatique et de Management (IFIM)",
-    initiales: "IFIM",
+    initiales: "",
+    logo: "./assets/icon/logo-IFIM.png",
     ville: "Libreville",
     quartier: "Ancien Waterman, Carrefour Nombakélé",
     telephone: "+241 66 25 53 11",
     whatsapp: "",
-    email: "",
+    email: "infos@ifimgabon.com",
     adresse: "Ancien Waterman, Carrefour Nombakélé, Libreville",
     domaines: [
       "Informatique de gestion",
@@ -277,10 +283,11 @@ const ecoles = [
 
   {
     id: 7,
-    nom: "Higher Institute of Technology (HIT)",
-    initiales: "HIT",
+    nom: "Institut Supérieur de Technologie (IST)",
+    initiales: "",
+    logo: "./assets/icon/logo-IST.png",
     ville: "Libreville",
-    quartier: "Libreville",
+    quartier: "Bikélé",
     telephone: "+241 01 76 41 47",
     whatsapp: "",
     email: "",
@@ -292,7 +299,7 @@ const ecoles = [
       "Maintenance"
     ],
     description:
-      "Le Higher Institute of Technology (HIT) propose des formations techniques dans les domaines de l'informatique, des réseaux, du développement et de la maintenance des systèmes.",
+      "L'Institut Supérieur de Technologie (IST) propose des formations techniques dans les domaines de l'informatique, des réseaux, du développement et de la maintenance des systèmes.",
 
     formations: [
       {
@@ -320,7 +327,8 @@ const ecoles = [
   {
     id: 8,
     nom: "École Supérieure des Technologies Informatiques de Management (ESTIM)",
-    initiales: "ESTIM",
+    initiales: "",
+    logo: "./assets/icon/logo-ESTIM.webp",
     ville: "Libreville",
     quartier: "Libreville",
     telephone: "+241 07 47 93 33",
@@ -355,7 +363,8 @@ const ecoles = [
   {
     id: 9,
     nom: "ITA (Institut des Techniques Avancées)",
-    initiales: "ITA",
+    initiales: "",
+    logo: "./assets/icon/logo-ITA.png",
     ville: "Libreville",
     quartier: "Avenue de Cointet",
     telephone: "+241 01 74 69 51",
@@ -425,38 +434,26 @@ const ecoles = [
   },
   {
     id: 11,
-    nom: "SAHELYS",
-    initiales: "SAH",
+    nom: "Université Numérique du Gabon (UNG)",
+    logo: "./assets/icon/logo-UNG.png",
+    initiales: "",
     ville: "Libreville",
-    quartier: "Montagne Sainte",
-    telephone: "+241 74 83 00 01",
+    quartier: "Derrière la prison",
+    telephone: "+241 60 17 94 88",
     whatsapp: "",
-    email: "",
-    adresse: "Montagne Sainte, Libreville",
+    email: "contact@ung.ga",
+    adresse: "Derrière la prison , Libreville",
     domaines: [
-      "Développement Web",
-      "Cybersécurité",
-      "Réseaux",
-      "Administration systèmes"
+      "Développement Web"
     ],
     description:
-      "SAHELYS est un centre de formation spécialisé en développement web, cybersécurité et infrastructures réseau.",
+      "L'UNG du Gabon est une université publique d'enseignement à distance axée sur le numérique éducatif. Elle offre des formations qualifiantes et professionnalisantes, avec des diplômes reconnus par l'Etat",
     formations: [
       {
         icon: "fa-code",
         nom: "Développement Web",
         detail: "Création de sites et applications web modernes"
       },
-      {
-        icon: "fa-shield-halved",
-        nom: "Cybersécurité",
-        detail: "Protection des données et des systèmes"
-      },
-      {
-        icon: "fa-server",
-        nom: "Administration systèmes",
-        detail: "Gestion des serveurs et des environnements IT"
-      }
     ]
   },
   {
@@ -567,6 +564,22 @@ const ecoles = [
   }
 ];
 
+function renderLogoAvatar(avatarElem, ecole) {
+  if (!avatarElem) return;
+
+  avatarElem.innerHTML = '';
+
+  if (ecole.logo) {
+    const image = document.createElement('img');
+    image.src = ecole.logo;
+    image.alt = `${ecole.nom} logo`;
+    image.className = 'ecole-logo';
+    avatarElem.appendChild(image);
+  } else {
+    avatarElem.textContent = ecole.initiales || '';
+  }
+}
+
 function renderDetailPage() {
   const params = new URLSearchParams(window.location.search);
   const id = params.has('id') ? parseInt(params.get('id'), 10) : null;
@@ -604,7 +617,7 @@ function renderDetailPage() {
     <span>${ecole.nom}</span>
   `;
 
-  document.querySelector('.ecole-avatar-lg').textContent = ecole.initiales;
+  renderLogoAvatar(document.querySelector('.ecole-avatar-lg'), ecole);
   document.querySelector('.ecole-hero-info h1').textContent = ecole.nom;
   document.querySelector('.ecole-hero-meta').innerHTML = `
     <span><i class="fa-solid fa-location-dot titre-icon"></i> ${ecole.ville}, ${ecole.quartier}</span>
