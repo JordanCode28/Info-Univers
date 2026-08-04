@@ -213,7 +213,7 @@ const ecoles = [
 
     // Quartiers par ville
     const quartierParVille = {
-      "Libreville":   ["Akanda", "Batterie 4", "PK8", "Nombakélé", "Louis", "Nzeng-Ayong", "Mindoubé", "Bikélé", "Charbonnages", "Ancien Waterman, Carrefour Nombakélé", "Rue Nkong Akore", "Plaine Niger", "Après Major Transport", "Avenue de Cointet", "Montagne Sainte", "Bord de mer / Lycée Léon Mba", "Zone Industrielle d'Oloumi"],
+      "Libreville":   ["Akanda", "Batterie 4", "PK8", "Nombakélé", "Louis", "Nzeng-Ayong", "Mindoubé", "Bikélé", "Charbonnages", "Ancien Waterman, Carrefour Nombakélé", "Rue Nkong Akore", "Plaine Niger", "Après Major Transport", "Avenue de Cointet", "Montagne Sainte", "Bord de mer / Lycée Léon Mba", "Zone Industrielle d'Oloumi", "Boulevard Triomphal"],
       "Port-Gentil":  ["Centre-ville", "Balise", "Sogara"],
       "Franceville":  ["Mvengué", "Léconi"],
       "Oyem":         ["Centre"]
