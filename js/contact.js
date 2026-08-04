@@ -5,7 +5,7 @@
       if (!isOpen) item.classList.add('open');
     }
 
-    // clé Web3Forms
+    // Envoi réel du formulaire via Web3Forms
     const WEB3FORMS_ACCESS_KEY = '1a8afc79-47ac-4291-be1d-e209135a88a1';
 
     async function envoyerMessage() {
@@ -59,3 +59,8 @@
         btn.innerHTML = btnTexteOriginal;
       }
     }
+
+    // Expose les fonctions globalement pour les attributs onclick="" du HTML
+    // (nécessaire car ce script est chargé en tant que module)
+    window.toggleFaq = toggleFaq;
+    window.envoyerMessage = envoyerMessage;
